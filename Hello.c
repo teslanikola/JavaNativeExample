@@ -9,4 +9,5 @@ JNIEXPORT void JNICALL Java_Hello_sayHi(JNIEnv *env, jobject obj, jstring who, j
   for (i = 0; i < times; i++) {
     printf("Hello %s\n", name);
   }
+  
 }
